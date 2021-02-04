@@ -8,6 +8,7 @@ if (!isset($_SESSION["usuari"])){
     <html lang="en">
 
     <head>
+        <title>Benvingut</title>
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -57,9 +58,9 @@ if (!isset($_SESSION["usuari"])){
 
             <div class="row">
                 <div class="col-md-2"></div>
-                <div class="col-md-8" align="center">
+                <div class="col-md-8" stype="margin:0;">
                     <div class="alert alert-primary" role="alert">
-                        <a href="logout.php">Desconnectar</a>
+                        <a id="logout" href="logout.php">Desconnectar</a>
                     </div>
                 </div>
                 <div class="col-md-2"></div>
